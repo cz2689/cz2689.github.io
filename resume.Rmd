@@ -1,11 +1,77 @@
 ---
-title: "Resume"
+title: "Resume:"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-This going to be my Resume:
-1.
-2.
+
+## Education
+**Columbia University (Currently)** $~~~~~~$ Sep. 2021 – Present  
+Master of Public Health (MPH) in Epidemiology. $~~~~~~$ Anticipated: May 2023  
+Certificate in Applied Biostatistics and Public Health Data Science $~~~~~~$ New York, NY  
+**GPA**: 4.00/4.33  
+
+**Pennsylvania State University** $~~~~~~$ Sep. 2016 – Dec. 2020  
+B.S. in General Biology $~~~~~~$ State College, PA  
+**GPA**: 3.78/4.0  
+**Selected Honors & Awards**: Dean’s List: 2016 Fall, 2017 Spring & Fall, 2018 Spring, 2019 Spring & Fall, 2020 Spring.
+
+## Experience
+**SAMH Unit at CUNY School of Public Health** $~~~~~~$ New York, NY  
+Research Intern $~~~~~~$ May 2022 – Sep. 2022  
+
+* Participated in a research project on the association between cannabis use and asthma among Americans
+* Hypothesized research aims and carried out analysis using NSDUH publicly available data file.
+* Conducted literature review, data analysis, data cleaning, data linking, and data visualization via tables and figures.
+* Collaborated on drafting article and revised further for future publication. 
+
+**Shanghai Institute of Applied Physics, Chinese Academy of Sciences** $~~~~~~$ Shanghai, China  
+Research Intern $~~~~~~$ Mar. 2021 – Jul. 2021 
+
+* Participated in a research project on the antitumor effect of nanomaterials with chemotherapeutic drugs
+* Studied the combination therapy effects of NDs and ATO in fighting solid tumors on nude mice
+* Prepared tumor models and western blotting analysis
+
+Research and Data Analysis Intern $~~~~~~$ Dec. 2019 – Feb. 2020  
+
+* Fabricated Fe~3~O~4~ at C/Ni nanocomposites and assisted in chemical analysis with TEM images
+* Participated in peroxidase-like activity assay and cholesterol detection experiments
+* Performed data analysis and visualization remotely for kinetic assays and wrote up conclusions for publication based on existing data  
+
+Research Intern $~~~~~~$ 	May – Jul. 2018  
+
+* Worked in a lab specializing in drug delivery lab with hollow gold nanoparticles
+* Involved in the synthesis of hollow gold nanoparticles and fabrication of other nanoparticles
+* Studied the behavior of different nanoparticles such as Fe~3~O~4~ at C/Ni nanocomposites under different conditions to facilitate the group research  
+
+**The Lal Lab, University of California, San Diego** $~~~~~~$	May – Jul. 2017  
+Research Intern	$~~~~~~$	La Jolla, CA  
+
+* Engaged in a project to design a highly sensitive tetrahedron-structured reporter probe (TSRP)
+* Composed literature reviews on the topic to gain a comprehensive understanding of the topic
+* Performed PCR and gel electrophoresis to prepare the target DNA fragments
+* Assisted in organizing and writing up results & methods sections for publication  
+
+**Computer-Aided Drug Design Department, UCB Biopharma** $~~~~~~$ Jan. – Feb. 2017  
+Research Intern	$~~~~~~$ Belgium  
+
+* Participated in an offsite internship to conduct a project on statistical genome analysis 
+* Developed bioinformatics package in R to perform statistical analysis of genomic sequencing data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

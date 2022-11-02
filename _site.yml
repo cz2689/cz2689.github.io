@@ -3,12 +3,14 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Resume"
+      href: resume.html
     - icon: fa-envelope fa-lg
       href: mailto:<cz2689@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/cz2689/
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/chaoqun-zhou-zzzzzzz/
 output:
   html_document:
-    theme: cerulean
+    theme: cosmo
