@@ -33,7 +33,7 @@ Column {data-width=650}
 ### Tmax by Weather station ID in boxplot
 
 ```{r}
-chart_a = noaa %>% 
+noaa %>% 
   drop_na(tmax) %>%
   group_by(id, year) %>%
   plot_ly(y = ~tmax, color = ~id, type = "box", colors = "viridis")
@@ -45,7 +45,7 @@ Column {data-width=350}
 ### Tmax change over years
 
 ```{r}
-chart_b = noaa %>% 
+noaa %>% 
   drop_na(tmax) %>% 
   group_by(year) %>% 
   summarise(
@@ -56,10 +56,10 @@ chart_b = noaa %>%
     )
 ```
 
-### Chart C
+### Station US1NYAB0001 total prcp in 2010 by month
 
 ```{r}
-chart_c = noaa %>% 
+ noaa %>% 
   drop_na(prcp) %>% 
   filter(year == 2010 & id ==	"US1NYAB0001") %>% 
   group_by(month) %>% 
