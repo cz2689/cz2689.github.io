@@ -18,4 +18,4 @@ You can click the icons on the right side of the navigation bar to contact me an
 
 I am a person with a strong academic record, including an MPH in Epidemiology from Columbia (2023), along with substantial hands-on data analysis and research experiences. Insights from data and research analysis led to co-authorship in peer-reviewed journals. Participated in multiple research projects in the past and internship opportunities. Familiar with analytic software R, SAS, advanced Excel. 
 
-Here is my [Resume](Resume.html) page.
+Here is my [Resume](resume.html) page.
