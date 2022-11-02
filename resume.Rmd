@@ -60,12 +60,14 @@ Research Intern	$~~~~~~$ Belgium
 * Participated in an offsite internship to conduct a project on statistical genome analysis 
 * Developed bioinformatics package in R to perform statistical analysis of genomic sequencing data
 
+## Publications
 
+1. [*PCR-free colorimetric DNA hybridization detection using a 3D DNA nanostructured reporter probe*](https://pubs.acs.org/doi/full/10.1021/acsami.7b11994)
+2. [*One-Dimensional Synergistic Core−Shell Nanozymes with Superior Peroxidase-like Activity for Ultrasensitive Colorimetric Detection of Blood Cholesterol*](https://pubs.acs.org/doi/full/10.1021/acsabm.0c00588)
 
-
-
-
-
+## Professional Skills
+**Data Analysis**: R, SAS, Advanced Microsoft Excel  
+**Language**: English (Proficient), Mandarin Chinese (Native)
 
 
 
