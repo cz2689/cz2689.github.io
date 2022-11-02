@@ -1,0 +1,72 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+```{r}
+data("ny_noaa")
+noaa = janitor::clean_names(ny_noaa) %>% 
+  separate(date, c("year", "month", "day"), convert = TRUE) %>% 
+  mutate(prcp = prcp*0.1,
+         tmax = as.numeric(tmax),
+         tmax = tmax*0.1,
+         tmin = as.numeric(tmin),
+         tmin = tmin*0.1)
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Tmax by Weather station ID in boxplot
+
+```{r}
+chart_a = noaa %>% 
+  drop_na(tmax) %>%
+  group_by(id, year) %>%
+  plot_ly(y = ~tmax, color = ~id, type = "box", colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Tmax change over years
+
+```{r}
+chart_b = noaa %>% 
+  drop_na(tmax) %>% 
+  group_by(year) %>% 
+  summarise(
+    average_tmax_degree_C = mean(tmax)
+  ) %>% 
+   plot_ly(
+    x = ~year, y = ~average_tmax_degree_C, type = "scatter", mode = "lines"
+    )
+```
+
+### Chart C
+
+```{r}
+chart_c = noaa %>% 
+  drop_na(prcp) %>% 
+  filter(year == 2010 & id ==	"US1NYAB0001") %>% 
+  group_by(month) %>% 
+  summarise(
+    total_prcp_mm = sum(prcp) 
+  ) %>% 
+  plot_ly(
+    x = ~month, y = ~total_prcp_mm, type = "bar")
+```
+
